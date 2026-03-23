@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login / Register</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<nav>
+    <h1>EduQuest</h1>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="auth.html" class="nav-btn">Login / Register</a></li>
+    </ul>
+</nav>
+
+<div class="auth-container">
+
+    <div class="auth-card">
+
+        <h2 id="formTitle">Login</h2>
+        <p class="auth-sub">Welcome back! Please login</p>
+
+        <form onsubmit="return validateForm()">
+
+            <div id="nameField" style="display:none;">
+                <label>Name</label>
+                <input type="text" id="name">
+            </div>
+
+            <label>Email</label>
+            <input type="email" id="email">
+
+            <label>Password</label>
+            <input type="password" id="password">
+
+            <div id="confirmField" style="display:none;">
+                <label>Confirm Password</label>
+                <input type="password" id="confirm">
+            </div>
+
+            <button type="submit" id="mainBtn">Login</button>
+
+        </form>
+
+        <p class="switch">
+            <span id="switchText">Don't have an account?</span>
+            <a href="register.html" onclick="toggleForm()">Register</a>
+        </p>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

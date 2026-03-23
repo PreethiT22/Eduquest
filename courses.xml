@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<courses>
+    
+    <course>
+        <title>Web Development</title>
+        <instructor>Anvitha Ragala</instructor>
+        <price>89.99</price>
+        <rating>4.8</rating>
+        <duration>3 Months</duration>
+    </course>
+
+    <course>
+        <title>Data Structures</title>
+        <instructor>Smith Doe</instructor>
+        <price>79.99</price>
+        <rating>4.7</rating>
+        <duration>3 Months</duration>
+    </course>
+
+    <course>
+        <title>Machine Learning</title>
+        <instructor>Akanksh Verula</instructor>
+        <price>99.99</price>
+        <rating>4.9</rating>
+        <duration>4 Months</duration>
+    </course>
+
+    <course>
+        <title>Python Programming</title>
+        <instructor>David Miller</instructor>
+        <price>69.99</price>
+        <rating>4.6</rating>
+        <duration>2 Months</duration>
+    </course>
+
+    <course>
+        <title>Cloud Computing</title>
+        <instructor>James Wilson</instructor>
+        <price>109.99</price>
+        <rating>4.7</rating>
+        <duration>4 Months</duration>
+    </course>
+
+</courses>
